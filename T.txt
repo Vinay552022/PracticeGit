@@ -1,0 +1,72 @@
+/*You are given an array of integers which contains positive and negative integers, you have to rearrange this array , preserving the original order, so that positive numbers appear after negative ones. Ensure that the relative positions of elements remain unchanged. Write a program to perform this segregation without altering the sequence of positive and negative integers.
+input format : integer number n
+                n number of integers (which is a mix of positive and negative integers)
+output format : List of integers
+
+For example,
+Example 1:
+Input: 8  
+9 -3 5 -2 -8 -6 1 3
+Output: [-3, -2, -8, -6, 9, 5, 1, 3]
+Example 2:
+Input : 8
+5 -4 3 -4 2 1 -5 -6
+output :[-4, -4, -5, -6, 5, 3, 2, 1]
+
+
+/*You are given an array of integers which contains positive and negative integers, you have to rearrange this array , preserving the original order, so that positive numbers appear after negative ones. Ensure that the relative positions of elements remain unchanged. Write a program to perform this segregation without altering the sequence of positive and negative integers.
+input format : integer number n
+                n number of integers (which is a mix of positive and negative integers)
+output format : List of integers
+
+For example,
+Example 1:
+Input: 8  
+9 -3 5 -2 -8 -6 1 3
+Output: [-3, -2, -8, -6, 9, 5, 1, 3]
+Example 2:
+Input : 8
+5 -4 3 -4 2 1 -5 -6
+output :[-4, -4, -5, -6, 5, 3, 2, 1]
+
+/*
+You are playing a game. There are N boxes placed in a row (0-indexed), 
+every box has some points. You need to play the game with the following rules:
+	- Initially your score is  '0' points.
+	- Suppose the box has P points in it.
+	  if p>0 you will gain P points, if p<0 you will loose P points.
+	- You are allowed to choose any number of consecutive boxes, atleast 1 box.
+	
+You are given the points in the N boxes as points[]. 
+Your target is to maximize your score, and return the highest score possible. 
+
+Input Format:
+-------------
+Line-1: An integer N.
+Line-2: N space separated integers, points[].
+
+Output Format:
+--------------
+An integer, print the highest score.
+
+Sample Input-1:
+---------------
+9
+-3 1 -2 4 -2 2 3 -5 4
+Sample Output-1:
+----------------
+7
+Explanation:
+------------
+By selecting consecutive boxes are [4,-2,2,3] has the highest score is 7
+
+Sample Input-2:
+---------------
+2
+1 -2
+Sample Output-2:
+----------------
+1
+Explanation:
+------------
+By picking the box is [1] has the highest score is 7
